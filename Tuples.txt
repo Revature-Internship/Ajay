@@ -1,0 +1,50 @@
+Tuples
+
+def create_tuple(*args):
+    return args
+    return 0
+
+
+def access_element(my_tuple, index):
+    return my_tuple[index]
+    return 0
+
+
+def concatenate_tuples(tuple1, tuple2):
+    new_tuple=tuple1+tuple2
+    return new_tuple
+    return 0
+
+
+def repeat_tuple(my_tuple, n):
+    return n*my_tuple
+    return 0
+
+def check_membership(my_tuple, item):
+Return item in my_tuple
+    return 0
+
+
+def check_non_membership(my_tuple, item):
+ Return item not in my_tuple
+    return 0
+
+
+def tuple_length(my_tuple):
+ Return len(my_tuple)
+    return 0
+
+
+def tuple_slicing(my_tuple, start, end):
+Return my_tuple[start:end]
+    return 0
+
+
+def count_occurrences(my_tuple, item):
+Return my_tuple.count(item)
+    return 0
+
+
+def find_index(my_tuple, item):
+Return my_tuple.index(item)
+    return 0
